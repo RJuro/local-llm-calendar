@@ -39,6 +39,8 @@ Start the [LM Studio](https://lmstudio.ai) Local Inference Server that emulates 
 ```
 # Command to start the server (specific to your setup)
 ```
+![LM Studio](static/lmstudio_server.png)
+
 
 ### Running the Application
 
@@ -48,6 +50,8 @@ python calparse.py --start-server
 ```
 
 ## Usage
+
+![LM Studio](static/gradio.png)
 
 1. Open the Gradio app in your web browser.
 2. Add event descriptions in the provided textbox. You can use examples provided below or create your own.
