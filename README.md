@@ -17,7 +17,7 @@ This application is designed to parse event descriptions into structured calenda
 
 1. Clone the repository:
    ```
-   git clone <repository-url>
+   git clone https://github.com/RJuro/local-llm-calendar.git
    ```
 
 2. Install the required Python packages:
@@ -28,8 +28,8 @@ This application is designed to parse event descriptions into structured calenda
 ### Setting Up the Language Model
 
 Run LM Studio with a suitable local model, such as:
-- https://huggingface.co/mlabonne/NeuralBeagle14-7B-GGUF
-- https://huggingface.co/RJuro/munin-neuralbeagle-7b-GGUF
+- [mlabonne/NeuralBeagle14-7B-GGUF](https://huggingface.co/mlabonne/NeuralBeagle14-7B-GGUF)
+- [RJuro/munin-neuralbeagle-7b-GGUF](https://huggingface.co/RJuro/munin-neuralbeagle-7b-GGUF)
 
 In (LM Studio)[https://lmstudio.ai], use the ChatML template and add the following stop tokens for the setup: `\nuser\n`. This is necessary because merged models like those above tend to overgenerate and require explicit stop-sequences.
 
@@ -42,12 +42,10 @@ Start the (LM Studio)[https://lmstudio.ai] Local Inference Server that emulates 
 
 ### Running the Application
 
-To run the application, use the following command:
+To run the application, use the following command (optionally specifying `--port 8000`):
 ```
 python calparse.py --start-server
 ```
-
-This command launches the Gradio web interface, where you can add event descriptions and generate a calendar.
 
 ## Usage
 
