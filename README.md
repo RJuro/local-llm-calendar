@@ -9,7 +9,7 @@ This application is designed to parse event descriptions into structured calenda
 ### Prerequisites
 
 - Python 3.11
-- (LM Studio)[https://lmstudio.ai] and a suitable language model running on localhost http://localhost:1234/v1
+- [LM Studio](https://lmstudio.ai) and a suitable language model running on localhost `http://localhost:1234/v1`
 - Gradio
 - `icalendar`, `pytz`, `dateutil`, `openai`, `json`, `os`, and `argparse` Python libraries
 
@@ -31,11 +31,11 @@ Run LM Studio with a suitable local model, such as:
 - [mlabonne/NeuralBeagle14-7B-GGUF](https://huggingface.co/mlabonne/NeuralBeagle14-7B-GGUF)
 - [RJuro/munin-neuralbeagle-7b-GGUF](https://huggingface.co/RJuro/munin-neuralbeagle-7b-GGUF)
 
-In (LM Studio)[https://lmstudio.ai], use the ChatML template and add the following stop tokens for the setup: `\nuser\n`. This is necessary because merged models like those above tend to overgenerate and require explicit stop-sequences.
+In [LM Studio](https://lmstudio.ai), use the ChatML template and add the following stop tokens for the setup: `\nuser\n`. This is necessary because merged models like those above tend to overgenerate and require explicit stop-sequences.
 
 ### Starting the Local Inference Server
 
-Start the (LM Studio)[https://lmstudio.ai] Local Inference Server that emulates OpenAI's API behavior:
+Start the [LM Studio](https://lmstudio.ai) Local Inference Server that emulates OpenAI's API behavior:
 ```
 # Command to start the server (specific to your setup)
 ```
