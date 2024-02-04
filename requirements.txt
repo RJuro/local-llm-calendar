@@ -1,0 +1,5 @@
+gradio==4.16.0
+icalendar==5.0.11
+openai==1.11.0
+python_dateutil==2.8.2
+pytz==2023.3.post1
