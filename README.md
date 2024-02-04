@@ -31,7 +31,9 @@ Run LM Studio with a suitable local model, such as:
 - [mlabonne/NeuralBeagle14-7B-GGUF](https://huggingface.co/mlabonne/NeuralBeagle14-7B-GGUF)
 - [RJuro/munin-neuralbeagle-7b-GGUF](https://huggingface.co/RJuro/munin-neuralbeagle-7b-GGUF)
 
-In [LM Studio](https://lmstudio.ai), use the ChatML template and add the following stop tokens for the setup: `\nuser\n`. This is necessary because merged models like those above tend to overgenerate and require explicit stop-sequences.
+In [LM Studio](https://lmstudio.ai), use the ChatML template and add the following stop tokens for the setup: ```<|im_start|>
+<|im_end|>
+<|im_end|>\n<|im_start|>user\n```. This is necessary because merged models like those above tend to overgenerate and require explicit stop-sequences.
 
 ### Starting the Local Inference Server
 
