@@ -37,10 +37,8 @@ In [LM Studio](https://lmstudio.ai), use the ChatML template and add the followi
 
 ### Starting the Local Inference Server
 
-Start the [LM Studio](https://lmstudio.ai) Local Inference Server that emulates OpenAI's API behavior:
-```
-# Command to start the server (specific to your setup)
-```
+Start the [LM Studio](https://lmstudio.ai) Local Inference Server that emulates OpenAI's API behavior - make sure to adjust the url in the app file if you change the port for the LM Studio inference server.:
+
 ![LM Studio](static/lmstudio_server.png)
 
 
