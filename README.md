@@ -2,7 +2,7 @@
 
 ## Overview
 
-This application is designed to parse event descriptions into structured calendar entries. It uses a local language model (LLM) to process unstructured text into a structured JSON format, which is then converted into calendar events. These events are compiled into an .ics file, creating a comprehensive calendar. It can then be added to standard calendar software like Outlook. The application is built with Python and utilizes Gradio for its web interface, allowing users to input event descriptions and generate calendars through a browser. That's just a demo of automation with local LLMs and not a real-world application.
+This application is designed to parse event descriptions into structured calendar entries. It uses a local large language model (LLM) to process unstructured text into a structured JSON format, which is then converted into calendar events. These events are compiled into an .ics file, creating a comprehensive calendar. It can then be added to standard calendar software like Outlook. The application is built with Python and utilizes Gradio for its web interface, allowing users to input event descriptions and generate calendars through a browser. That's just a demo of automation with local LLMs and not a real-world application.
 
 ## Getting Started
 
